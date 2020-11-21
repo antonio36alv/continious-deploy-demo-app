@@ -29,7 +29,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "035482438445.dkr.ecr.us-east-2.amazonaws.com/react-app",
+      "image": "035482438445.dkr.ecr.us-west-2.amazonaws.com/react-app",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -55,7 +55,7 @@
   "compatibilities": [
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-west-2:035482438445:task-definition/deployment-container:1",
+  "taskDefinitionArn": "arn:aws:ecs:us-west-2:035482438445:task-definition/deployment-container:10",
   "family": "deployment-container",
   "requiresAttributes": [
     {
@@ -71,7 +71,7 @@
   ],
   "networkMode": null,
   "cpu": "1024",
-  "revision": 1,
+  "revision": 10,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
